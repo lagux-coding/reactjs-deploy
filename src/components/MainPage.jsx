@@ -121,9 +121,9 @@ function MainPage() {
             <img
               className="max-h-[60%] max-w-[80%] h-full"
               src="https://github.com/SonlqtFPT/SWP391-AuctionKoi/blob/phureal/src/assets/logo/sakai-logo.png?raw=true"
-              alt={`Saki Logo`}
+              alt={`Sakai Logo`}
             />
-            <span className="font-semibold">Saki</span>
+            <span className="font-semibold">Sakai</span>
           </NavLink>
           <NavLink
             to="/isa"
@@ -131,7 +131,7 @@ function MainPage() {
           >
             <img
               className=" max-h-[60%] max-w-[80%] h-full "
-              src="https://th.bing.com/th/id/R.a0f012d976a1b109ee2bdde1147fe6cf?rik=C6AoaugI7LDLaA&riu=http%3a%2f%2fkoikichi-auction.com%2fimages%2fupload%2fbreeder%2f111320_Breeder_ISA-LOGO.jpg&ehk=Hf1sTTJWFP0CQnkh7Ln%2bLlVW3%2fYSq1ZIAFuiJoHQ6xQ%3d&risl=&pid=ImgRaw&r=0"
+              src="https://th.bing.com/th/id/R.bb6b67b32e3d5344a69407c2f6a4182d?rik=lp7v4osC3jG%2fBA&pid=ImgRaw&r=0"
               alt={`Isa Logo`}
             />
             <span className="font-semibold">Isa</span>
