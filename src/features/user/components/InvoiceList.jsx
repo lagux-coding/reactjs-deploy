@@ -10,7 +10,7 @@ const InvoiceList = () => {
 
   // Format price in VND
   function formatPrice(price) {
-    const token = localStorage.getItem("accessToken");
+    
     if (price === null || price === undefined) {
       return "TBD";
     }
@@ -62,6 +62,7 @@ const InvoiceList = () => {
   };
 
   useEffect(() => {
+    const token = localStorage.getItem("accessToken");
     const fetchInvoices = async () => {
       try {
         const response = await axios.get(
