@@ -26,7 +26,7 @@ const PaymentSuccess = () => {
       <h1>Payment Successful!</h1>
       <p>Thank you for your deposit.</p>
       <p>Closing in {countdown} seconds...</p>
-      <p>Teacher Nhan is handsome</p>
+      <p>Teacher Tam and Tri are handsome</p>
 
       {/* Inline styles */}
       <style jsx>{`
