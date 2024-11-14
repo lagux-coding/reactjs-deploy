@@ -10,6 +10,7 @@ const InvoiceList = () => {
 
   // Format price in VND
   function formatPrice(price) {
+    const token = localStorage.getItem("accessToken");
     if (price === null || price === undefined) {
       return "TBD";
     }
@@ -67,8 +68,7 @@ const InvoiceList = () => {
           "https://prestigekoiauction.freeddns.org:8443/invoice/get-invoices-of-winner",
           {
             headers: {
-              Authorization:
-                "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyQGdtYWlsLmNvbSIsImlhdCI6MTczMTU1Nzc5MiwiZXhwIjoxNzMxNjQ0MTkyfQ.zCNwxSHyCid3DFk9Bg5aEpNLcSdFZdFjXRtfQLmf5-5yITizwPXAuiahYr9mFx0oiilwCmOFEHgB8gI8AFEPAA",
+              Authorization: `Bearer ${token}`,
               Accept: "*/*",
             },
           }
