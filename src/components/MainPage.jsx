@@ -153,7 +153,7 @@ function MainPage() {
           >
             <img
               className=" max-h-[60%] max-w-[80%] h-full "
-              src="https://auctionkoi.com/images/marushin-logo.png"
+              src="https://auctionkoi.com/wp-content/uploads/2024/11/marushin-logo-128x91.jpg"
               alt={`Marushin Logo`}
             />
             <span className="font-semibold">Marushin</span>
@@ -164,7 +164,7 @@ function MainPage() {
           >
             <img
               className=" max-h-[60%] max-w-[80%] h-full "
-              src="https://auctionkoi.com/images/kanno-logo.png"
+              src="https://auctionkoi.com/wp-content/uploads/2024/11/kanno-logo-128x130.png"
               alt={`Kanno Logo`}
             />
             <span className="font-semibold">Kanno</span>
