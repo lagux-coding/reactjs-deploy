@@ -41,7 +41,7 @@ function MainPage() {
           <h2 className="text-3xl md:text-5xl font-extrabold text-white">
             We Are The Best Consulting Agency
           </h2>
-          <button className="bg-red-600 hover:bg-red-500 rounded-full py-3 px-4 md:py-4 md:px-5 font-bold mt-6">
+          <button className="bg-red-600 hover:bg-red-500 rounded-full py-3 px-4 md:py-4 md:px-5 mt-6">
             <Link to="/auction">View Auction</Link>
           </button>
         </div>
@@ -130,7 +130,7 @@ function MainPage() {
             className="aspect-square sm:w-48 p-4 flex flex-col items-center justify-around bg-amber-500 rounded-xl hover:bg-amber-400"
           >
             <img
-              className=" max-h-[60%] max-w-[80%] h-full "
+              className="max-h-[60%] max-w-[80%] h-full"
               src="https://th.bing.com/th/id/R.bb6b67b32e3d5344a69407c2f6a4182d?rik=lp7v4osC3jG%2fBA&pid=ImgRaw&r=0"
               alt={`Isa Logo`}
             />
@@ -141,7 +141,7 @@ function MainPage() {
             className="aspect-square sm:w-48 p-4 flex flex-col items-center justify-around bg-amber-500 rounded-xl hover:bg-amber-400"
           >
             <img
-              className=" max-h-[60%] max-w-[80%] h-full "
+              className="max-h-[60%] max-w-[80%] h-full"
               src="https://dainichikoifarm.com/wp-content/themes/dainichi_231122/assets/images/common/main_logo.svg"
               alt={`Dainichi Logo`}
             />
@@ -152,7 +152,7 @@ function MainPage() {
             className="aspect-square sm:w-48 p-4 flex flex-col items-center justify-around bg-amber-500 rounded-xl hover:bg-amber-400"
           >
             <img
-              className=" max-h-[60%] max-w-[80%] h-full "
+              className="max-h-[60%] max-w-[80%] h-full"
               src="https://auctionkoi.com/wp-content/uploads/2024/11/marushin-logo-128x91.jpg"
               alt={`Marushin Logo`}
             />
@@ -163,7 +163,7 @@ function MainPage() {
             className="aspect-square sm:w-48 p-4 flex flex-col items-center justify-around bg-amber-500 rounded-xl hover:bg-amber-400"
           >
             <img
-              className=" max-h-[60%] max-w-[80%] h-full "
+              className="max-h-[60%] max-w-[80%] h-full"
               src="https://auctionkoi.com/wp-content/uploads/2024/11/kanno-logo-128x130.png"
               alt={`Kanno Logo`}
             />
