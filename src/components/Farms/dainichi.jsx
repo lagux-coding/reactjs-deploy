@@ -26,17 +26,19 @@ function dainichi() {
             alt="Koi Fish"
           />
         </div>
-        <div className="w-full md:w-[800px]">
-          <h1 className="text-white font-bold text-2xl md:text-4xl flex justify-center">
-            Dainichi Koi Farm: Excellence in World-Class Koi Breeding
-          </h1>
-          <h2 className="text-slate-100 mt-14 mb-5">
-            Located in Sanbusho, Ojiya, Japan, Dainichi Koi Farm is a globally
-            respected name in koi breeding. Founded by the late Mano and now
-            led by his sons, Futoshi and Shigeru Mano, Dainichi has become
-            synonymous with high quality and impeccable koi body structure,
-            attracting enthusiasts worldwide who seek to own a Dainichi koi.
-          </h2>
+        <div className="w-full md:w-[800px] h-auto">
+          <div>
+            <h1 className="text-white font-bold text-2xl md:text-4xl flex justify-center">
+              Dainichi Koi Farm: Excellence in World-Class Koi Breeding
+            </h1>
+            <h2 className="text-slate-100 mt-14 mb-5">
+              Located in Sanbusho, Ojiya, Japan, Dainichi Koi Farm is a globally
+              respected name in koi breeding. Founded by the late Mano and now
+              led by his sons, Futoshi and Shigeru Mano, Dainichi has become
+              synonymous with high quality and impeccable koi body structure,
+              attracting enthusiasts worldwide who seek to own a Dainichi koi.
+            </h2>
+          </div>
         </div>
       </div>
       <div className="relative">

@@ -26,13 +26,18 @@ function Isa() {
             alt="Koi Fish"
           />
         </div>
-        <div className="w-full md:w-[800px]">
-          <h1 className="text-white font-bold text-2xl md:text-4xl flex justify-center">
-            Isa Koi Farm: Passion and Excellence in Showa Breeding
-          </h1>
-          <h2 className="text-slate-100 mt-14 mb-5">
-            Founded in 1971 by Mitsunori Isa...
-          </h2>
+        <div className="w-full md:w-[800px] h-auto">
+          <div>
+            <h1 className="text-white font-bold text-2xl md:text-4xl flex justify-center">
+              Isa Koi Farm: Passion and Excellence in Showa Breeding
+            </h1>
+            <h2 className="text-slate-100 mt-14 mb-5">
+              Founded in 1971 by Mitsunori Isa, Isa Koi Farm has become one of
+              the most popular and respected breeders in Niigata, Japan. Known
+              for his sincere dedication, passion, and likable personality, Mr.
+              Isa has built a reputation that goes beyond koi quality alone.
+            </h2>
+          </div>
         </div>
       </div>
     </div>

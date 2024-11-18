@@ -26,13 +26,18 @@ function saki() {
             alt="Koi Fish"
           />
         </div>
-        <div className="w-full md:w-[800px]">
-          <h1 className="text-white font-bold text-2xl md:text-4xl flex justify-center">
-            Sakai Koi Farm: A Legacy of Excellence in Nishikigoi Breeding
-          </h1>
-          <h2 className="text-slate-100 mt-14 mb-5">
-            With over 120 years of experience, Sakai Koi Farm stands as a symbol...
-          </h2>
+        <div className="w-full md:w-[800px] h-auto">
+          <div>
+            <h1 className="text-white font-bold text-2xl md:text-4xl flex justify-center">
+              Sakai Koi Farm: A Legacy of Excellence in Nishikigoi Breeding
+            </h1>
+            <h2 className="text-slate-100 mt-14 mb-5">
+              With over 120 years of experience, Sakai Koi Farm stands as a
+              symbol of innovation and quality in koi breeding. Starting in 1890
+              with Ichiroji Sakai breeding Magoi, our family has evolved through
+              three generations, ultimately focusing on the unique Nishikigoi.
+            </h2>
+          </div>
         </div>
       </div>
     </div>

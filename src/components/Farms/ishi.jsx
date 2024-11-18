@@ -8,10 +8,10 @@ function ishi() {
   }, []);
 
   return (
-    <div className="bg-hero-pattern bg-cover relative grid min-h-screen">
+    <div className="bg-hero-pattern bg-cover relative grid min-h-screen ">
       <Header />
       <div className="absolute bg-black bg-opacity-70 inset-0" />
-      <div className="relative flex justify-center items-center mt-20">
+      <div className="relative flex justify-center items-center mt-20 bg-white w-full">
         <img
           src="https://ishikoi.vn/tassets/images/hinh-anh-footer-1.png"
           className="rounded-2xl w-[80%] max-w-[300px] h-auto"
@@ -26,13 +26,19 @@ function ishi() {
             alt="Koi Fish"
           />
         </div>
-        <div className="w-full md:w-[800px]">
-          <h1 className="text-white font-bold text-2xl md:text-4xl flex justify-center">
-            Ishi Koi Farm: Breeding Japanese Koi fish in Vietnam
-          </h1>
-          <h2 className="text-slate-100 mt-14 mb-5">
-            With a deep passion for koi, Ishi Koi Farm was established...
-          </h2>
+        <div className="w-full md:w-[800px] h-auto">
+          <div>
+            <h1 className="text-white font-bold text-2xl md:text-4xl flex justify-center">
+              Ishi Koi Farm: Breeding Japanese Koi fish in Vietnam
+            </h1>
+            <h2 className="text-slate-100 mt-14 mb-5">
+              With a deep passion for koi, Ishi Koi Farm was established to meet
+              the growing demand for koi across Vietnam. Since our inception, we
+              have built strong partnerships with top Japanese koi farms,
+              bringing the beauty and quality of authentic Japanese koi to our
+              clients in Vietnam.
+            </h2>
+          </div>
         </div>
       </div>
     </div>
